@@ -5,6 +5,211 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>03590346-DFB8-4084-81A1-76A3459E6992</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>03590346-DFB8-4084-81A1-76A3459E6992.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HookSwift project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HookSwift</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run HookSwift</string>
+			<key>timeStartedRecording</key>
+			<real>629188483.93935096</real>
+			<key>timeStoppedRecording</key>
+			<real>629189398.00403202</real>
+			<key>title</key>
+			<string>Run HookSwift</string>
+			<key>uniqueIdentifier</key>
+			<string>03590346-DFB8-4084-81A1-76A3459E6992</string>
+		</dict>
+		<key>1234FD5F-95A9-4E81-ADCE-8A008A8D428C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1234FD5F-95A9-4E81-ADCE-8A008A8D428C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HookSwift project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HookSwift</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run HookSwift</string>
+			<key>timeStartedRecording</key>
+			<real>629183381.51106203</real>
+			<key>timeStoppedRecording</key>
+			<real>629183443.31087804</real>
+			<key>title</key>
+			<string>Run HookSwift</string>
+			<key>uniqueIdentifier</key>
+			<string>1234FD5F-95A9-4E81-ADCE-8A008A8D428C</string>
+		</dict>
+		<key>3E7E688E-C59D-475A-94EF-387B4B105338</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3E7E688E-C59D-475A-94EF-387B4B105338.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HookSwift project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HookSwift</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run HookSwift</string>
+			<key>timeStartedRecording</key>
+			<real>629189629.31317103</real>
+			<key>timeStoppedRecording</key>
+			<real>629189675.74238598</real>
+			<key>title</key>
+			<string>Run HookSwift</string>
+			<key>uniqueIdentifier</key>
+			<string>3E7E688E-C59D-475A-94EF-387B4B105338</string>
+		</dict>
+		<key>64681498-D54D-4222-B872-9D99E20C3AA3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>64681498-D54D-4222-B872-9D99E20C3AA3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HookSwift project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HookSwift</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run HookSwift</string>
+			<key>timeStartedRecording</key>
+			<real>629189595.422768</real>
+			<key>timeStoppedRecording</key>
+			<real>629189624.58918798</real>
+			<key>title</key>
+			<string>Run HookSwift</string>
+			<key>uniqueIdentifier</key>
+			<string>64681498-D54D-4222-B872-9D99E20C3AA3</string>
+		</dict>
+		<key>7C3E7E81-AA53-4253-B956-13F6668EF287</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7C3E7E81-AA53-4253-B956-13F6668EF287.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HookSwift project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HookSwift</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run HookSwift</string>
+			<key>timeStartedRecording</key>
+			<real>629189831.39749205</real>
+			<key>timeStoppedRecording</key>
+			<real>629189834.46442497</real>
+			<key>title</key>
+			<string>Run HookSwift</string>
+			<key>uniqueIdentifier</key>
+			<string>7C3E7E81-AA53-4253-B956-13F6668EF287</string>
+		</dict>
+		<key>E2CC9905-E519-4A6E-81CC-C4F9E6171640</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E2CC9905-E519-4A6E-81CC-C4F9E6171640.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HookSwift project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HookSwift</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run HookSwift</string>
+			<key>timeStartedRecording</key>
+			<real>629189826.21487606</real>
+			<key>timeStoppedRecording</key>
+			<real>629189830.17788303</real>
+			<key>title</key>
+			<string>Run HookSwift</string>
+			<key>uniqueIdentifier</key>
+			<string>E2CC9905-E519-4A6E-81CC-C4F9E6171640</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

@@ -3,27 +3,81 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		8AD891B625808BB60093787A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD891B525808BB60093787A /* AppDelegate.swift */; };
-		8AD891B825808BB60093787A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD891B725808BB60093787A /* SceneDelegate.swift */; };
 		8AD891BA25808BB60093787A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD891B925808BB60093787A /* ViewController.swift */; };
-		8AD891BD25808BB60093787A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD891BB25808BB60093787A /* Main.storyboard */; };
 		8AD891BF25808BB80093787A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AD891BE25808BB80093787A /* Assets.xcassets */; };
 		8AD891C225808BB80093787A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD891C025808BB80093787A /* LaunchScreen.storyboard */; };
+		8AD891CD25808BF40093787A /* DemoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD891CC25808BF40093787A /* DemoConfig.swift */; };
+		8AD891EB2580AA380093787A /* CydiaSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AD891E92580AA380093787A /* CydiaSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AD891EE2580AA380093787A /* CydiaSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD891E72580AA380093787A /* CydiaSwift.framework */; };
+		8AD891EF2580AA380093787A /* CydiaSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD891E72580AA380093787A /* CydiaSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8AD891F52580AA880093787A /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD891D42580A6DE0093787A /* CydiaSubstrate.framework */; platformFilter = ios; };
+		8AD891F62580AA880093787A /* CydiaSubstrate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD891D42580A6DE0093787A /* CydiaSubstrate.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8AD891F72580AA880093787A /* libsubstitute.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD891D62580A6DE0093787A /* libsubstitute.0.dylib */; platformFilter = ios; };
+		8AD891F82580AA880093787A /* libsubstitute.0.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD891D62580A6DE0093787A /* libsubstitute.0.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		8AD891F92580AA880093787A /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD891D52580A6DE0093787A /* libsubstrate.dylib */; platformFilter = ios; };
+		8AD891FA2580AA880093787A /* libsubstrate.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD891D52580A6DE0093787A /* libsubstrate.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		8AD892062580AB130093787A /* HookMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD892002580AB130093787A /* HookMaster.m */; };
+		8AD892082580AB130093787A /* HookMaster.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AD892022580AB130093787A /* HookMaster.h */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AD891EC2580AA380093787A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AD891AA25808BB60093787A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AD891E62580AA380093787A;
+			remoteInfo = CydiaSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8AD891DD2580A6DE0093787A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8AD891EF2580AA380093787A /* CydiaSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD891FB2580AA880093787A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8AD891F82580AA880093787A /* libsubstitute.0.dylib in Embed Frameworks */,
+				8AD891FA2580AA880093787A /* libsubstrate.dylib in Embed Frameworks */,
+				8AD891F62580AA880093787A /* CydiaSubstrate.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8AD891B225808BB60093787A /* HookSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HookSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD891B525808BB60093787A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8AD891B725808BB60093787A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8AD891B925808BB60093787A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8AD891BC25808BB60093787A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AD891BE25808BB80093787A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AD891C125808BB80093787A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AD891C325808BB80093787A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AD891CC25808BF40093787A /* DemoConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoConfig.swift; sourceTree = "<group>"; };
+		8AD891D42580A6DE0093787A /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CydiaSubstrate.framework; path = Lib/CydiaSubstrate.framework; sourceTree = "<group>"; };
+		8AD891D52580A6DE0093787A /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = Lib/libsubstrate.dylib; sourceTree = "<group>"; };
+		8AD891D62580A6DE0093787A /* libsubstitute.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstitute.0.dylib; path = Lib/libsubstitute.0.dylib; sourceTree = "<group>"; };
+		8AD891E72580AA380093787A /* CydiaSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CydiaSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD891E92580AA380093787A /* CydiaSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CydiaSwift.h; sourceTree = "<group>"; };
+		8AD891EA2580AA380093787A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AD892002580AB130093787A /* HookMaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HookMaster.m; sourceTree = "<group>"; };
+		8AD892022580AB130093787A /* HookMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HookMaster.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +85,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AD891EE2580AA380093787A /* CydiaSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD891E42580AA380093787A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD891F72580AA880093787A /* libsubstitute.0.dylib in Frameworks */,
+				8AD891F92580AA880093787A /* libsubstrate.dylib in Frameworks */,
+				8AD891F52580AA880093787A /* CydiaSubstrate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +106,9 @@
 			isa = PBXGroup;
 			children = (
 				8AD891B425808BB60093787A /* HookSwift */,
+				8AD891E82580AA380093787A /* CydiaSwift */,
 				8AD891B325808BB60093787A /* Products */,
+				8AD891D32580A6DE0093787A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				8AD891B225808BB60093787A /* HookSwift.app */,
+				8AD891E72580AA380093787A /* CydiaSwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,17 +125,49 @@
 			isa = PBXGroup;
 			children = (
 				8AD891B525808BB60093787A /* AppDelegate.swift */,
-				8AD891B725808BB60093787A /* SceneDelegate.swift */,
 				8AD891B925808BB60093787A /* ViewController.swift */,
-				8AD891BB25808BB60093787A /* Main.storyboard */,
 				8AD891BE25808BB80093787A /* Assets.xcassets */,
 				8AD891C025808BB80093787A /* LaunchScreen.storyboard */,
 				8AD891C325808BB80093787A /* Info.plist */,
+				8AD891CC25808BF40093787A /* DemoConfig.swift */,
 			);
 			path = HookSwift;
 			sourceTree = "<group>";
 		};
+		8AD891D32580A6DE0093787A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AD891D42580A6DE0093787A /* CydiaSubstrate.framework */,
+				8AD891D62580A6DE0093787A /* libsubstitute.0.dylib */,
+				8AD891D52580A6DE0093787A /* libsubstrate.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AD891E82580AA380093787A /* CydiaSwift */ = {
+			isa = PBXGroup;
+			children = (
+				8AD892022580AB130093787A /* HookMaster.h */,
+				8AD892002580AB130093787A /* HookMaster.m */,
+				8AD891E92580AA380093787A /* CydiaSwift.h */,
+				8AD891EA2580AA380093787A /* Info.plist */,
+			);
+			path = CydiaSwift;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8AD891E22580AA380093787A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD891EB2580AA380093787A /* CydiaSwift.h in Headers */,
+				8AD892082580AB130093787A /* HookMaster.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		8AD891B125808BB60093787A /* HookSwift */ = {
@@ -77,15 +177,36 @@
 				8AD891AE25808BB60093787A /* Sources */,
 				8AD891AF25808BB60093787A /* Frameworks */,
 				8AD891B025808BB60093787A /* Resources */,
+				8AD891DD2580A6DE0093787A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8AD891ED2580AA380093787A /* PBXTargetDependency */,
 			);
 			name = HookSwift;
 			productName = HookSwift;
 			productReference = 8AD891B225808BB60093787A /* HookSwift.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8AD891E62580AA380093787A /* CydiaSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AD891F22580AA380093787A /* Build configuration list for PBXNativeTarget "CydiaSwift" */;
+			buildPhases = (
+				8AD891E22580AA380093787A /* Headers */,
+				8AD891E32580AA380093787A /* Sources */,
+				8AD891E42580AA380093787A /* Frameworks */,
+				8AD891E52580AA380093787A /* Resources */,
+				8AD891FB2580AA880093787A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CydiaSwift;
+			productName = CydiaSwift;
+			productReference = 8AD891E72580AA380093787A /* CydiaSwift.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,6 +218,10 @@
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					8AD891B125808BB60093787A = {
+						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
+					};
+					8AD891E62580AA380093787A = {
 						CreatedOnToolsVersion = 12.1;
 					};
 				};
@@ -115,6 +240,7 @@
 			projectRoot = "";
 			targets = (
 				8AD891B125808BB60093787A /* HookSwift */,
+				8AD891E62580AA380093787A /* CydiaSwift */,
 			);
 		};
 /* End PBXProject section */
@@ -126,7 +252,13 @@
 			files = (
 				8AD891C225808BB80093787A /* LaunchScreen.storyboard in Resources */,
 				8AD891BF25808BB80093787A /* Assets.xcassets in Resources */,
-				8AD891BD25808BB60093787A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD891E52580AA380093787A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,21 +271,29 @@
 			files = (
 				8AD891BA25808BB60093787A /* ViewController.swift in Sources */,
 				8AD891B625808BB60093787A /* AppDelegate.swift in Sources */,
-				8AD891B825808BB60093787A /* SceneDelegate.swift in Sources */,
+				8AD891CD25808BF40093787A /* DemoConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD891E32580AA380093787A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD892062580AB130093787A /* HookMaster.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		8AD891BB25808BB60093787A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8AD891BC25808BB60093787A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		8AD891ED2580AA380093787A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AD891E62580AA380093787A /* CydiaSwift */;
+			targetProxy = 8AD891EC2580AA380093787A /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		8AD891C025808BB80093787A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,17 +426,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C9MJ8RURYQ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lib",
+				);
 				INFOPLIST_FILE = HookSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vulcanlab.apiintegrate.HookSwift;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apiintegrate.HookSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,17 +458,99 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C9MJ8RURYQ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lib",
+				);
 				INFOPLIST_FILE = HookSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vulcanlab.apiintegrate.HookSwift;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apiintegrate.HookSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8AD891F02580AA380093787A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C9MJ8RURYQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lib",
+				);
+				INFOPLIST_FILE = CydiaSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vulcanlab.apiintegrate.CydiaSwift;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8AD891F12580AA380093787A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C9MJ8RURYQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lib",
+				);
+				INFOPLIST_FILE = CydiaSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vulcanlab.apiintegrate.CydiaSwift;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -336,6 +571,15 @@
 			buildConfigurations = (
 				8AD891C725808BB80093787A /* Debug */,
 				8AD891C825808BB80093787A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AD891F22580AA380093787A /* Build configuration list for PBXNativeTarget "CydiaSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD891F02580AA380093787A /* Debug */,
+				8AD891F12580AA380093787A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -5,7 +5,64 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>3E48BC49-198C-400D-9CC4-22BBEA1EFEDD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>3E48BC49-198C-400D-9CC4-22BBEA1EFEDD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>CydiaSwift-ehrwarzvwtbuneafxkwvjcnywhrz</string>
+			<key>timeStartedRecording</key>
+			<real>629189821.16041994</real>
+			<key>timeStoppedRecording</key>
+			<real>629189821.30231404</real>
+			<key>title</key>
+			<string>Build target CydiaSwift</string>
+			<key>uniqueIdentifier</key>
+			<string>3E48BC49-198C-400D-9CC4-22BBEA1EFEDD</string>
+		</dict>
+		<key>573235B2-BE97-4797-9FE9-1CC63DD68663</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>573235B2-BE97-4797-9FE9-1CC63DD68663.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>HookSwift-ehrwarzvwtbuneafxkwvjcnywhrz</string>
+			<key>timeStartedRecording</key>
+			<real>629189821.16111696</real>
+			<key>timeStoppedRecording</key>
+			<real>629189826.204862</real>
+			<key>title</key>
+			<string>Build target HookSwift</string>
+			<key>uniqueIdentifier</key>
+			<string>573235B2-BE97-4797-9FE9-1CC63DD68663</string>
+		</dict>
+	</dict>
 	<key>preserveOldLogs</key>
 	<true/>
 </dict>
